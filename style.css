@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box{
+    height: 85%;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+hr{
+    background-color: black;
+    margin: 7px 0px 0px 0px;
+}
+
+.row-action{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.first-name{
+   border: 1px solid grey;
+   background-color: rgb(245, 245, 245);
+   display: flex;
+   align-items: center;
+   padding-left: 6px;
+   border-radius: 7px;
+   margin-bottom: 7px;
+   width: 50%;
+   margin-right: 5px;
+   height: 35px;
+}
+
+.surname{
+    border: 1px solid grey;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+   padding-left: 6px;
+   border-radius: 7px;
+   margin-bottom: 7px;
+   width: 50%;
+}
+
+.email-number{
+    border: 1px solid grey;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+   padding-left: 6px;
+   border-radius: 7px;
+   margin-bottom: 7px;
+   width: 100%;
+   height: 35px;
+}
+
+.password{
+    border: 1px solid grey;
+    background-color: rgb(245, 245, 245);
+   padding-left: 6px;
+   border-radius: 7px;
+   margin-bottom: 7px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   height: 35px;
+}
+
+input{
+    background-color: rgb(245, 245, 245);
+    border: none;
+    width: 100%;
+    height: 20px;
+    /* padding: 7px; */
+    outline: none;
+    /* background-color: red */
+}
+
+.form-row-act{
+    display: flex;
+    flex-direction: row
+    /* margin-top: 10px; */
+}
+
+.date{
+    flex-direction: row;
+    border: 1px solid grey;
+    margin-right: 10px;
+    width: 100px;
+    border-radius: 5px;
+    height: 30px;
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 0 7px;
+}
+.month{
+    flex-direction: row;
+    border: 1px solid grey;
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 30px;
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 0 7px;
+}
+
+.year{
+    flex-direction: row;
+    border: 1px solid grey;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 4px;
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 0 7px;
+}
+.gender-row-act{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+
+.female-radio-box{
+    border: 1px solid grey;
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 7px;
+}
+
+.male-radio-box{
+    border: 1px solid grey;
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 7px;
+}
+
+.custom-radio-box{
+    border: 1px solid grey;
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 7px;
+    
+}
+
+h6{
+    margin-bottom: 7px;
+    color: grey;
+    /* font-size: small; */
+    font-weight: lighter;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(3, 3, 145);
+}
+
+.sign-up{
+    width: 40%;
+    border-radius: 3px;
+    padding: 5px;
+    height: 25px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 130px;
+    border: none;
+    /* margin-right: 50px; */
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    background-color: green;
+}
